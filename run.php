@@ -19,7 +19,7 @@ $reff = trim(fgets(STDIN));
 while (-1) {
 	echo '---------------------------------------------------------------------'.PHP_EOL;
 	$curl = new Curl();
-	$curl->post('https://otpinaja.com/api/order', [
+	$curl->post(' 	https://otpku.com/api/json.php', [
 	        'api_key' => $apikey,
 	        'service_id' => $ids,
 	        ]);
